@@ -13,6 +13,18 @@
 		92CC5CC719CD6346005F65A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CC619CD6346005F65A1 /* Images.xcassets */; };
 		92CC5CCA19CD6346005F65A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CC819CD6346005F65A1 /* LaunchScreen.xib */; };
 		92CC5CD619CD6346005F65A1 /* AquariumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CC5CD519CD6346005F65A1 /* AquariumTests.swift */; };
+		92CC5CE319CD6369005F65A1 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CDF19CD6369005F65A1 /* 1.mp3 */; };
+		92CC5CE419CD6369005F65A1 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CE019CD6369005F65A1 /* 2.mp3 */; };
+		92CC5CE519CD6369005F65A1 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CE119CD6369005F65A1 /* 3.mp3 */; };
+		92CC5CE619CD6369005F65A1 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CE219CD6369005F65A1 /* 4.mp3 */; };
+		92CC5CED19CD6382005F65A1 /* akanehanadai.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CE719CD6382005F65A1 /* akanehanadai.png */; };
+		92CC5CEE19CD6382005F65A1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CE819CD6382005F65A1 /* background.jpg */; };
+		92CC5CEF19CD6382005F65A1 /* harisenbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CE919CD6382005F65A1 /* harisenbon.png */; };
+		92CC5CF019CD6382005F65A1 /* manbou.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CEA19CD6382005F65A1 /* manbou.png */; };
+		92CC5CF119CD6382005F65A1 /* mure.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CEB19CD6382005F65A1 /* mure.png */; };
+		92CC5CF219CD6382005F65A1 /* syumokuzame.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC5CEC19CD6382005F65A1 /* syumokuzame.png */; };
+		92CC5CF419CDAA25005F65A1 /* SEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CC5CF319CDAA25005F65A1 /* SEManager.swift */; };
+		92CC5CF619CDAA42005F65A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CC5CF519CDAA42005F65A1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 		92CC5CCF19CD6346005F65A1 /* AquariumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquariumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CC5CD419CD6346005F65A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92CC5CD519CD6346005F65A1 /* AquariumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariumTests.swift; sourceTree = "<group>"; };
+		92CC5CDF19CD6369005F65A1 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		92CC5CE019CD6369005F65A1 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		92CC5CE119CD6369005F65A1 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		92CC5CE219CD6369005F65A1 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		92CC5CE719CD6382005F65A1 /* akanehanadai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = akanehanadai.png; sourceTree = "<group>"; };
+		92CC5CE819CD6382005F65A1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		92CC5CE919CD6382005F65A1 /* harisenbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harisenbon.png; sourceTree = "<group>"; };
+		92CC5CEA19CD6382005F65A1 /* manbou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manbou.png; sourceTree = "<group>"; };
+		92CC5CEB19CD6382005F65A1 /* mure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mure.png; sourceTree = "<group>"; };
+		92CC5CEC19CD6382005F65A1 /* syumokuzame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syumokuzame.png; sourceTree = "<group>"; };
+		92CC5CF319CDAA25005F65A1 /* SEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEManager.swift; sourceTree = "<group>"; };
+		92CC5CF519CDAA42005F65A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CC5CF619CDAA42005F65A1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +84,9 @@
 		92CC5CB119CD6346005F65A1 = {
 			isa = PBXGroup;
 			children = (
+				92CC5CF719CDAA55005F65A1 /* Images */,
+				92CC5CF819CDAA65005F65A1 /* Sound */,
+				92CC5CF919CDAA79005F65A1 /* Frameworks */,
 				92CC5CBC19CD6346005F65A1 /* Aquarium */,
 				92CC5CD219CD6346005F65A1 /* AquariumTests */,
 				92CC5CBB19CD6346005F65A1 /* Products */,
@@ -79,6 +107,7 @@
 			children = (
 				92CC5CBF19CD6346005F65A1 /* AppDelegate.swift */,
 				92CC5CC119CD6346005F65A1 /* ViewController.swift */,
+				92CC5CF319CDAA25005F65A1 /* SEManager.swift */,
 				92CC5CC319CD6346005F65A1 /* Main.storyboard */,
 				92CC5CC619CD6346005F65A1 /* Images.xcassets */,
 				92CC5CC819CD6346005F65A1 /* LaunchScreen.xib */,
@@ -110,6 +139,38 @@
 				92CC5CD419CD6346005F65A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92CC5CF719CDAA55005F65A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				92CC5CE719CD6382005F65A1 /* akanehanadai.png */,
+				92CC5CE819CD6382005F65A1 /* background.jpg */,
+				92CC5CE919CD6382005F65A1 /* harisenbon.png */,
+				92CC5CEA19CD6382005F65A1 /* manbou.png */,
+				92CC5CEB19CD6382005F65A1 /* mure.png */,
+				92CC5CEC19CD6382005F65A1 /* syumokuzame.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		92CC5CF819CDAA65005F65A1 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				92CC5CDF19CD6369005F65A1 /* 1.mp3 */,
+				92CC5CE019CD6369005F65A1 /* 2.mp3 */,
+				92CC5CE119CD6369005F65A1 /* 3.mp3 */,
+				92CC5CE219CD6369005F65A1 /* 4.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		92CC5CF919CDAA79005F65A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92CC5CF519CDAA42005F65A1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +253,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CC5CEE19CD6382005F65A1 /* background.jpg in Resources */,
+				92CC5CE519CD6369005F65A1 /* 3.mp3 in Resources */,
+				92CC5CE319CD6369005F65A1 /* 1.mp3 in Resources */,
+				92CC5CED19CD6382005F65A1 /* akanehanadai.png in Resources */,
 				92CC5CC519CD6346005F65A1 /* Main.storyboard in Resources */,
+				92CC5CE419CD6369005F65A1 /* 2.mp3 in Resources */,
+				92CC5CE619CD6369005F65A1 /* 4.mp3 in Resources */,
+				92CC5CF219CD6382005F65A1 /* syumokuzame.png in Resources */,
+				92CC5CF019CD6382005F65A1 /* manbou.png in Resources */,
+				92CC5CF119CD6382005F65A1 /* mure.png in Resources */,
 				92CC5CCA19CD6346005F65A1 /* LaunchScreen.xib in Resources */,
+				92CC5CEF19CD6382005F65A1 /* harisenbon.png in Resources */,
 				92CC5CC719CD6346005F65A1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CC5CF419CDAA25005F65A1 /* SEManager.swift in Sources */,
 				92CC5CC219CD6346005F65A1 /* ViewController.swift in Sources */,
 				92CC5CC019CD6346005F65A1 /* AppDelegate.swift in Sources */,
 			);
@@ -339,6 +411,7 @@
 				INFOPLIST_FILE = Aquarium/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -349,6 +422,7 @@
 				INFOPLIST_FILE = Aquarium/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +479,7 @@
 				92CC5CDB19CD6346005F65A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92CC5CDC19CD6346005F65A1 /* Build configuration list for PBXNativeTarget "AquariumTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +488,7 @@
 				92CC5CDE19CD6346005F65A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

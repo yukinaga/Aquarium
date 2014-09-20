@@ -1,25 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Aquarium" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QR1-yj-xPl">
+                                <rect key="frame" x="-4" y="0.0" width="576" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mure.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nat-Bd-YbS">
+                                <rect key="frame" x="29" y="20" width="163" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="8Ro-gw-fxx"/>
+                                    <constraint firstAttribute="height" constant="107" id="MBS-wq-xO5"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9B9-6S-GeU">
+                                <rect key="frame" x="137" y="81" width="137" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="SRz-Lo-qvu"/>
+                                    <constraint firstAttribute="height" constant="93" id="amS-yU-tGa"/>
+                                </constraints>
+                                <state key="normal" image="akanehanadai.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fishTapped:" destination="vXZ-lx-hvc" eventType="touchDown" id="dmC-ui-rmi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWj-Sc-RsD">
+                                <rect key="frame" x="223" y="101" width="165" height="154"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="9dC-Vs-zna"/>
+                                    <constraint firstAttribute="height" constant="154" id="L6B-Y2-FPT"/>
+                                </constraints>
+                                <state key="normal" image="manbou.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fishTapped:" destination="vXZ-lx-hvc" eventType="touchDown" id="r52-1q-o1C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7U-ld-VVG">
+                                <rect key="frame" x="108" y="213" width="97" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="Fet-M5-3iD"/>
+                                    <constraint firstAttribute="width" constant="97" id="SB1-0P-Zr0"/>
+                                    <constraint firstAttribute="width" secondItem="s7U-ld-VVG" secondAttribute="height" multiplier="97:72" id="VKr-0w-HUi"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="VaS-3L-C8q"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="wwS-mF-ghc"/>
+                                </constraints>
+                                <state key="normal" image="harisenbon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VKr-0w-HUi"/>
+                                        <exclude reference="VaS-3L-C8q"/>
+                                        <exclude reference="wwS-mF-ghc"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="fishTapped:" destination="vXZ-lx-hvc" eventType="touchDown" id="1L3-c4-U2l"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mure.png" translatesAutoresizingMaskIntoConstraints="NO" id="mZL-Tf-7ik">
+                                <rect key="frame" x="333" y="182" width="190" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="BjR-h9-vjK"/>
+                                    <constraint firstAttribute="width" constant="190" id="DRl-z1-z37"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJz-Dx-VwX">
+                                <rect key="frame" x="392" y="8" width="176" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JJz-Dx-VwX" secondAttribute="height" multiplier="8:5" id="1hn-JI-2Bq"/>
+                                    <constraint firstAttribute="width" secondItem="JJz-Dx-VwX" secondAttribute="height" multiplier="8:5" id="drR-WZ-jvY"/>
+                                    <constraint firstAttribute="height" constant="110" id="j8y-gl-KA9"/>
+                                    <constraint firstAttribute="width" constant="176" id="mDm-16-3vj"/>
+                                </constraints>
+                                <state key="normal" image="syumokuzame.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1hn-JI-2Bq"/>
+                                        <exclude reference="drR-WZ-jvY"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="fishTapped:" destination="vXZ-lx-hvc" eventType="touchDown" id="DEd-X6-Hc8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="uWj-Sc-RsD" secondAttribute="centerX" constant="-21.5" id="6ka-pG-juf"/>
+                            <constraint firstItem="QR1-yj-xPl" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="88A-RO-3rv"/>
+                            <constraint firstItem="Nat-Bd-YbS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="8FL-Ze-7lt"/>
+                            <constraint firstAttribute="trailing" secondItem="mZL-Tf-7ik" secondAttribute="trailing" constant="45" id="9BL-pK-jRm"/>
+                            <constraint firstAttribute="centerY" secondItem="uWj-Sc-RsD" secondAttribute="centerY" constant="-18" id="AQ9-Qw-9d6"/>
+                            <constraint firstItem="s7U-ld-VVG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="92" id="PeD-AQ-ZM3"/>
+                            <constraint firstItem="9B9-6S-GeU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="81" id="RAd-Fr-8NT"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="mZL-Tf-7ik" secondAttribute="bottom" constant="8" id="UNp-2r-p3z"/>
+                            <constraint firstItem="QR1-yj-xPl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="UcO-vl-6WR"/>
+                            <constraint firstAttribute="trailing" secondItem="QR1-yj-xPl" secondAttribute="trailing" id="aNa-ys-plH"/>
+                            <constraint firstAttribute="trailing" secondItem="JJz-Dx-VwX" secondAttribute="trailing" id="d3Z-HP-NUj"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="s7U-ld-VVG" secondAttribute="bottom" constant="35" id="mYY-Hu-eKX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="QR1-yj-xPl" secondAttribute="bottom" id="tOT-F8-FZ9"/>
+                            <constraint firstItem="JJz-Dx-VwX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="vPl-nv-CdI"/>
+                            <constraint firstItem="9B9-6S-GeU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="137" id="xmD-bV-HFu"/>
+                            <constraint firstItem="Nat-Bd-YbS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="29" id="xqQ-yO-Qs9"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="akanehanadai.png" width="400" height="287"/>
+        <image name="background.jpg" width="384" height="480"/>
+        <image name="harisenbon.png" width="791" height="620"/>
+        <image name="manbou.png" width="352" height="400"/>
+        <image name="mure.png" width="400" height="312"/>
+        <image name="syumokuzame.png" width="800" height="596"/>
+    </resources>
 </document>
